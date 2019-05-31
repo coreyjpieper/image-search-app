@@ -1,4 +1,5 @@
 import React from 'react';
+import './ImageList.css';
 
 const ImageList = props => {
   const images = props.images.map(( { alt_description, id, urls }) => {
